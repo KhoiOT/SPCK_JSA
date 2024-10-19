@@ -1,0 +1,520 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+#header {
+    display: flex;
+    width: 1519px;
+    height: 115px;
+    background-color: #f5f5f5;
+}
+
+#header_left {
+    width: 200px;
+    height: 115px;
+}
+
+img {
+    width: 100%;
+    height: 115px;
+}
+
+#header_middle {
+    width: 1010px;
+    height: 115px;
+    border-left: solid 1px black;
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+}
+
+.inform {
+    margin-left: 32px;
+    margin-top: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.inform:hover {
+    cursor: pointer;
+    border-bottom: solid black;
+}
+
+#header_right {
+    display: flex;
+    width: 310px;
+}
+
+
+#find {
+    margin-top: 45px;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+#find:hover {
+    cursor: pointer;
+}
+
+#cart {
+    margin-top: 45px;
+    font-size: 20px;
+    margin-right: 15px;
+    position: relative;
+}
+
+#wrapper_cart {
+    position: absolute;
+    top: 28px;
+    left: 1250px;
+    width: 23px;
+    height: 23px;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 23px;
+    color: white;
+}
+
+.wrapperAccount {
+    margin-top: 42px;
+    height: 30px;
+    width: 100px;
+    margin-right: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    position: relative;
+}
+
+.wrapperAccount:hover {
+    cursor: pointer;
+}
+
+#user_logo {
+    font-size: 20px;
+
+}
+
+#log_out {
+    top: 0%;
+    position: absolute;
+    list-style: none;
+    opacity: 0;
+    padding-top: 30px;
+
+}
+
+#log_out:hover {
+    opacity: 1;
+}
+
+#dangxuat {
+    text-decoration: underline;
+    color: red;
+}
+
+#dangxuat:hover {
+    cursor: pointer;
+}
+
+button {
+    margin-top: 40px;
+    height: 30px;
+    width: 100px;
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0.5px solid black;
+    border-radius: 20px;
+    background-color: white;
+
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+
+#jordan4 {
+    width: 1423px;
+    height: 741px;
+}
+
+#sale {
+    width: 1519px;
+    height: 74px;
+    background-color: white;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+}
+
+#Off {
+    width: 1519px;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#markdown {
+    font-size: 11px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#jordan {
+    width: 1519px;
+    height: 248px;
+}
+
+#jordan_icon {
+    width: 104px;
+    height: 99px;
+    margin-left: 708px;
+    margin-top: 55px;
+}
+
+#since {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 8px;
+    text-decoration: overline;
+}
+
+#jordan4 {
+    width: 1423px;
+    height: 741px;
+    margin-left: 49px;
+}
+
+#advertisement {
+    width: 1519px;
+    height: 400px;
+    padding-top: 55px;
+}
+
+#soon {
+    font-size: 20px;
+    text-align: center;
+}
+
+#oxidize_green {
+    font-size: 50px;
+    text-align: center;
+    width: 675px;
+    margin-left: 426px;
+    word-spacing: 0px;
+    line-height: 53px;
+}
+
+#description {
+    width: 700px;
+    font-size: 22px;
+    text-align: center;
+    margin-left: 422px;
+    line-height: 30px;
+    padding-top: 15px;
+    font-weight: 400;
+}
+
+#jordan_essentials {
+    width: 1519px;
+    height: 550px;
+}
+
+h3 {
+    padding-left: 48px;
+    font-size: 25px;
+}
+
+#sort {
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.essentials {
+    width: 506px;
+    height: 100%;
+    padding-left: 20px;
+    position: relative;
+}
+
+.sort {
+    width: 466px;
+    height: 467px;
+}
+
+.sort_name {
+    font-weight: 500;
+    font-size: 20px;
+    position: absolute;
+    top: 420px;
+    left: 30px;
+    text-decoration: underline;
+
+}
+
+#fam {
+    width: 1519px;
+    height: 666px;
+    margin-top: 80px;
+}
+
+#entire {
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gear {
+    width: 506px;
+    height: 100%;
+    padding-left: 20px;
+}
+
+.human {
+    width: 466px;
+    height: 585px;
+}
+
+.sex {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#featured {
+    width: 1519px;
+    height: 1141px;
+    margin-top: 80px;
+}
+
+#jordan_summer {
+    width: 1483px;
+    height: 741px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+#jordan_women {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 45px;
+    font-weight: 500;
+}
+
+#diamond {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 790;
+}
+
+#iconic {
+    width: 1100px;
+    font-size: 22px;
+    text-align: center;
+    margin-left: 235px;
+    line-height: 30px;
+    padding-top: 15px;
+    font-weight: 400;
+}
+
+.product {
+    width: 1519px;
+    height: 620px;
+    margin-bottom: 100px;
+}
+
+.product_list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    height: 100%;
+    padding-top: 15px;
+}
+
+.list {
+    width: 506px;
+    height: 100%;
+    padding-left: 20px;
+}
+
+.shoes {
+    width: 466px;
+    height: 466px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.category {
+    font-size: 18px;
+    margin-top: 5px;
+    color: #707072;
+}
+
+.price {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+#explore {
+    width: 1519px;
+    height: 747px;
+    margin-top: 130px;
+}
+
+#explore_jordan {
+    width: 759;
+    height: 731px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 20px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.jordan_photo {
+    width: 705px;
+    height: 700px;
+}
+
+input {
+    width: 134px;
+    height: 42px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    top: 620px;
+}
+
+#black {
+    background-color: black;
+    color: white;
+    left: 530px;
+
+}
+
+#white {
+    background-color: white;
+    color: black;
+    right: 84px;
+}
+
+#list {
+    width: 1519px;
+    height: 296px;
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-content: center;
+    padding-left: 150px;
+    border-bottom: 3px solid #e5e5e5;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #707072;
+    height: 40px;
+}
+
+.sort_list {
+    list-style: none;
+}
+
+.list_inform {
+    font-size: 18px;
+    line-height: 42px;
+    font-weight: 400;
+    color: #818183;
+}
+
+#footer {
+    width: 1519px;
+    height: 450px;
+    position: relative;
+    display: flex;
+}
+
+#footer_left {
+    width: 1070px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 20px;
+    margin-top: 62px;
+}
+
+#inc {
+    display: flex;
+    list-style: none;
+}
+
+.inc_inform {
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+.title_footer {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.footer_list {
+    list-style: none;
+
+}
+
+.footer_list_inform {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+#footer_right {
+    width: 135px;
+    height: 450px;
+    margin-left: 400px;
+}
+
+#globe {
+    margin-top: 61px;
+    font-size: 20px;
+}
+
+span {
+    font-size: 20px;
+}

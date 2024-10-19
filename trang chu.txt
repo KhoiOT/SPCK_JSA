@@ -1,0 +1,10 @@
+trang chu
+-them hover cho button(oke)
+-behavior smooth
+product
+-doi mau add to bag
+-doi mau lo gio hang
+cart
+-sua register thanh 
+dang nhap 
+-them nut back ve trang chu

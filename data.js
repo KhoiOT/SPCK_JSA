@@ -1,0 +1,66 @@
+const newData = [{
+    id: 1,
+    name: 'Jordan Spizike Low',
+    image: "image/justin_01.png",
+    imageHCN: "image/justin_01_HCN.png",
+    price: 185,
+    category: "MEN'S SHOES",
+}, {
+    id: 2,
+    name: 'AIR Jordan Legacy 312 Low',
+    image: "image/justin_02.png",
+    imageHCN: "image/justin_02_HCN.png",
+    price: 167,
+    category: "MEN'S SHOES",
+}, {
+    id: 3,
+    name: 'Jordan Roam',
+    image: "image/justin_03.png",
+    imageHCN: "image/justin_03_HCN.png",
+    price: 63,
+    category: "SLIDES",
+}, {
+    id: 4,
+    name: 'Jordan 1 Low University Blue',
+    image: "image/jordan1_1.png",
+    imageHCN: "image/jordan1_1HCN.jpg",
+    price: 155,
+    category: "WOMEN'S SHOES",
+}, {
+    id: 5,
+    name: 'AIR Jordan 1 Low Method Of Make',
+    image: "image/jordan1_2.png",
+    imageHCN: "image/jordan1_2HCN.png",
+    price: 115,
+    category: "WOMEN'S SHOES",
+}, {
+    id: 6,
+    name: 'Air Jordan 1 Low',
+    image: "image/jordan1_3.png",
+    imageHCN: "image/jordan1_3HCN.jpg",
+    price: 127,
+    category: "WOMEN'S SHOES",
+}, {
+    id: 7,
+    name: 'Tatum 2 Side Walk',
+    image: "image/basketball_shoes_1.png",
+    imageHCN: "image/basketball_shoes_1HCN.jpg",
+    price: 95,
+    category: "OLDER KIDS' BASKETBALL SHOES",
+}, {
+    id: 8,
+    name: 'Tatum 2 Vortex',
+    image: "image/basketball_shoes_2.png",
+    imageHCN: "image/basketball_shoes_2HCN.jpg",
+    price: 144,
+    category: "OLDER KIDS' BASKETBALL SHOES",
+}, {
+    id: 9,
+    name: 'Zion 3 Rising PF',
+    image: "image/basketball_shoes_3.png",
+    imageHCN: "image/basketball_shoes_3HCN.png",
+    price: 173,
+    category: "OLDER KIDS' BASKETBALL SHOES",
+}];
+
+
