@@ -8,7 +8,12 @@ import { firebaseConfig } from "./config.js";
 const app = initializeApp(firebaseConfig);
 const auth = await getAuth(app);
 const register = async (email, password) => {
-    try { let user = await signInWithEmailAndPassword(auth, email, password); }
+    try {
+        let user = await signInWithEmailAndPassword(auth, email, password).then((user) => {
+            localStorage.setItem('user', user.user.email);
+
+        });
+    }
     catch (error) { console.log(error); }
 
 }

@@ -1,4 +1,4 @@
-import { auth } from "./authentication_s"
+import { auth } from "./authentication_s.js"
 const newDataELements = document.querySelector(".newData");
 
 let html = "";
@@ -41,10 +41,7 @@ for (let i = 3; i < 6; i++) {
   `;
 }
 jordan1Elements.innerHTML = htmlj1;
-function moveToDetail(idj1) {
-  localStorage.setItem("idProduct", idj1);
-  location.href = "product.html"
-}
+
 const basketballElements = document.querySelector(".basketball");
 
 let htmlbb = "";
@@ -64,10 +61,7 @@ for (let i = 6; i < newData.length; i++) {
   `;
 }
 basketballElements.innerHTML = htmlbb;
-function moveToDetail(idbb) {
-  localStorage.setItem("idProduct", idbb);
-  location.href = "product.html"
-}
+
 function updateQuantityCart() {
   if (localStorage.getItem("cart")) {
     let cartLocal = JSON.parse(localStorage.getItem("cart"));
